@@ -4,6 +4,5 @@ class PaymentReturnsTest(unittest.TestCase):
         print("This is payment returns by bank test")
         self.assertTrue(True)
 
-
 if __name__ == '__main__':
      unittest.main()
