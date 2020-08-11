@@ -17,7 +17,7 @@ class TestHRM():
     @allure.severity(allure.severity_level.NORMAL)
     def test_listemployees(self):
         pytest.skip("Skippin test...Later i will implement..")
-    @allure.severity(allure.severity_level.NORMAL)
+    @allure.severity(allure.severity_level.NORMALgi )
     def test_Login(self):
         self.driver = webdriver.Chrome(executable_path="C:\\Users\\Luis\\Desktop\\Python_Selenium_SDET\\Drivers\\chromedriver.exe")
 
